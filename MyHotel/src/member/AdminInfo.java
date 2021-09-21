@@ -8,10 +8,10 @@ public class AdminInfo {
 	private String people;
 	
 	public void printMemberInfo() {
-		System.out.println("�̸� : "+name);
-		System.out.println("��¥ : "+date);
-		System.out.println("ȣ�� : "+hotel);
-		System.out.println("�ο� �� : "+people);		
+		System.out.println("ÀÌ¸§ : "+name);
+		System.out.println("³¯Â¥ : "+date);
+		System.out.println("È£ÅÚ : "+hotel);
+		System.out.println("ÀÎ¿ø ¼ö : "+people);		
 	}
 
 	public AdminInfo(String name, String date, String hotel, String people) {
